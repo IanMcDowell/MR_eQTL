@@ -5,8 +5,8 @@
 
 This package includes scripts that may be used to test for gene-gene trans associations using genotype and gene expression data. Briefly, genotypes (z) are tested for association with genes in cis (x) and for association with genes in trans (y). A statistic based on the ratio of the trans effect size to the cis effect size can be used to quantify the association between gene x and gene y. Here, scripts are provided for the computation of the estimated trans effect size of gene x on gene y and the standard error of that estimate. The ratio of the squared trans effect size to the standard error yields a test statistic that is roughly chi-squared distributed, much like a Wald test (see equations below). A script is provided to compute the false discovery rate if test statistics are computed for both observed data and permuted data (where subject labels of expression matrix Y are shuffled).
 
-![MR diagram](https://github.com:IanMcDowell/trans_eqtl_mendelian_randomization/auxiliary/PMID17886233_fig1.png)
-
+![MR diagram](https://github.com/IanMcDowell/MR_eQTL/blob/master/auxiliary/PMID17886233_fig1.png)
+    
 For more details, see e.g. [PMID: 17886233](http://www.ncbi.nlm.nih.gov/pubmed/17886233)
 
 ## Installation and Prerequisites
